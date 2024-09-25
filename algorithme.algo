@@ -1,0 +1,29 @@
+ALGORITHM sum
+VAR
+a,b,c,s: integer
+BEGIN
+ read(a)
+ read(a)
+ read(c)
+ s:=a+b+c
+ print(s)
+END
+
+ALGORITHM moyen
+VAR
+    a,b,c,d, : floot
+    s: floot =0
+BEGIN
+ s:=(s+a+b+c+d)/4
+ IF (s<15) THEN
+   print("fail")
+ else
+   print("succes")
+END_IF
+END
+
+ALGORITHM compteur
+VAR
+BEGIN
+    
+END
